@@ -1,0 +1,269 @@
+.h1s1 {
+    padding:0px 15px;
+    margin:0px 0px;
+    background-color:#333;
+    color:white;
+    text-align:center;
+}
+.uls1 {
+    list-style-type:none;
+    margin:0;
+    padding-left:520px;
+    overflow:hidden;
+    background-color: #333; /* Setter bakgrunnsfarge */
+}
+.class1{
+    display:block; /* */
+    color:white; /* Setter hvit tekst */
+    text-align:center; /* Sentrere teksten i midten av boksen */
+    padding:15px 15px; /* 10px over og under tekst, 15 px på venstre og høyre*/
+    text-decoration: none; /* Fjerner linje under tekst på nav */
+    float:left;
+}
+.class1:hover {
+    background-color:white;
+    color: #333;
+}
+.divas1 {
+    border-style:solid;
+    margin:20px 0px 0px 10px;
+    width:500px;
+    height:200px;
+    padding:3px;
+}
+.images1 {
+    margin: 20px 0px 0px 65px;
+    border-style:solid;
+    padding:5px;
+}
+.ps1 {
+    margin-left:175px;
+}
+.divbs1 {
+    border-style:solid;
+    margin:20px 0px 0px 10px;
+    width:500px;
+    padding:3px;
+}
+/* ------------------------------ Side 2 ------------------------------------*/
+.bs2 {
+    padding:0;
+    margin:0 0 0 0px;
+    background-color: white;
+}
+div.page{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80px 10fr;
+    grid-template-rows: 50px 8fr 50px;
+    grid-template-areas: 'meny header'
+                         'meny mainContent'
+                         'meny footer';
+    }
+div.header {
+    background-color:white;
+    grid-area: header;
+}
+div.meny {
+    background-color: white;
+    grid-area: meny;
+}div.mainContent {
+    background-color:gray ;
+    grid-area: mainContent;
+}
+div.footer {
+    background-color:lightgray ;
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 500px) {
+    div.page{
+    grid-template-columns: 1fr ;
+    grid-template-rows: 30px 1fr 5fr 30px;
+    grid-template-areas: 'header'
+                         'meny'
+                         'mainContent'
+                         'footer';
+    }
+}
+.h1s2 {
+    color:gray;
+    text-align:center;
+    margin-top:7px;
+}
+.h5s2 {
+    color:gray;
+    width:100px;
+    margin-left:10px;
+    margin-top:50px;
+}
+.uls2 {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100px;
+}
+.as2 {
+    display:block;
+    color:gray;
+    padding:10px 5px;
+    text-decoration: none;
+}
+.as2:hover {
+    color:black;
+}
+.imgs2_1 {
+    border: 2px solid;
+    margin:16px 0px 0px 13px;
+    padding:5px;
+    background-color: white;
+    float:left;
+}
+
+.imgs2_2 {
+    border: 2px solid;
+    margin:0px 13px 0px 0px;
+    padding:5px;
+    background-color: white;
+    float:right;
+}
+.imgs2_3 {
+    border: 2px solid;
+    margin:0px 0px 5px 13px;
+    padding:5px;
+    background-color: white;
+    float:left;
+}
+.arts1_2 {
+    text-align:center;
+    border:2px solid;
+    margin:115px 100px 115px 700px;
+    background-color:white;
+    max-width: 350px;
+    clear:right;
+}
+.arts2_2 {
+    text-align:center;
+    border:1px solid;
+    margin:122px 700px 122px 100px;
+    background-color: white;
+    max-width: 350px;
+    clear:left;
+}
+.arts3_2 {
+    text-align:center;
+    border:1px solid;
+    margin:100px 0px 5px 700px;
+    background-color: white;
+    max-width: 350px;
+    clear:right;
+}
+.toTop {
+    background-color: gray;
+    color:black;
+    display:inline-block;
+    text-decoration: none;
+    margin:5px 0px 0px 0px;
+    padding:5px;
+}
+/* ------------------------------ Side 3 ------------------------------------*/
+.bodys3 {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+.h1s3 {
+    padding:0px 15px;
+    margin:0px 0px;
+    background-color:transparent;
+    color:black;
+    text-align:center;
+    padding-top:5px;
+}
+.class3 {
+    display:block; /* */
+    color:black; /* Setter hvit tekst */
+    text-align:center; /* Sentrere teksten i midten av boksen */
+    padding:15px 15px; /* 10px over og under tekst, 15 px på venstre og høyre*/
+    text-decoration: none; /* Fjerner linje under tekst på nav */
+    float:left;
+}  
+.class3:hover {
+    color:rgb(0, 211, 156);
+}
+.images3, .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .images3 {
+    width: 100vw;
+    height: 100vh;
+}
+.text {
+    height: 50vh;
+}
+/* ---------------------------Kontakt------------------------------------------------------- */
+.dropbtn {
+    background-color:Green;
+    color:white;
+    padding:16px;
+    font-size:16px;
+    border:1px solid black;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+.dropdown-content {
+    display:none;
+    position:absolute;
+    background-color:white;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index:1;
+    border: 1px solid white;
+}
+.dropdown-content .a1{
+    color:black;
+    display:block;
+    text-decoration:none;
+    padding: 12px 16px;
+}
+.dropdown-content .a1:hover {
+    background-color: green;
+    color:white;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color:black;
+    border:1px solid;
+    border-color: black;
+}
+.dropbtn:hover {
+    color:black;
+    border-color:black;
+    border:1px solid;
+}
+.borcol:focus {
+    outline-color:green;
+    background-color:;
+}
+.buttonkon {
+    background-color: green;
+    color:white;
+    border-color: black;
+    border:1px solid;
+    font-size:15px;
+    border:1px;
+}
+.imgko {
+    float:right;
+}
